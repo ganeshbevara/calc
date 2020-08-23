@@ -15,6 +15,7 @@ public class Calculator extends HttpServlet {
     {
         try
         {
+	  System.out.println();
           response.setContentType("text/html");
           PrintWriter out= response.getWriter();
         
